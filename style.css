@@ -16,10 +16,38 @@ body {
 }
 
 .image_one {
-  height: 50%;
+  height: 55%;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 360px;
+  width: 410px;
+  padding-right: 5px;
   border-radius: 20px;
+}
+
+h1 {
+  font-family: "Outfit", sans-serif;
+  color: white;
+  font-weight: 600;
+}
+
+.para_one {
+  font-family: "Outfit", sans-serif;
+  color: white;
+  font-weight: 200;
+  font-size: 24px;
+  word-spacing: 5px;
+}
+
+.para_two {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.eth {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: hsl(179, 77%, 55%);
 }

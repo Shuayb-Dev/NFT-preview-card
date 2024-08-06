@@ -1,0 +1,25 @@
+body {
+  background-color: hsl(216, 55%, 11%);
+  min-height: 100vh;
+  display: flex; /* it works with grid too  */
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  height: 700px;
+  padding: 20px;
+  width: 400px;
+  background-color: hsl(214, 50%, 16%);
+  border: solid 5px hsl(214, 51%, 16%);
+  border-radius: 20px;
+}
+
+.image_one {
+  height: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 360px;
+  border-radius: 20px;
+}

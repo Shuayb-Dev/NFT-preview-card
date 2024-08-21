@@ -27,10 +27,35 @@ body {
   right: 4px;
 }
 
+.image_two {
+  position: absolute;
+  left: 721px;
+  bottom: 463px;
+  margin: 0px;
+  padding: 0px;
+  transition: 0.5s, ease;
+  background-color: hsl(179, 77%, 55%);
+  opacity: 0;
+  padding: 175px 188px 163px 175px;
+  border-radius: 20px;
+  transition: opacity 0.5s ease-in; /* Smooth transition for opacity */
+}
+
+.image_two:hover {
+  opacity: 0.2;
+  cursor: pointer;
+}
+
 h1 {
   font-family: "Outfit", sans-serif;
   color: white;
   font-weight: 600;
+  transition: 0.3s;
+}
+
+h1:hover {
+  color: hsl(179, 77%, 55%);
+  cursor: pointer;
 }
 
 .para_one {
@@ -91,6 +116,12 @@ hr {
   position: relative;
   bottom: 50px;
   left: 70px;
+  transition: color 0.5s ease-in;
+}
+
+.avatar_info p:hover {
+  cursor: pointer;
+  color: hsl(179, 77%, 55%);
 }
 
 .avatar_info span {

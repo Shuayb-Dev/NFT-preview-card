@@ -15,6 +15,11 @@ body {
   border-radius: 20px;
 }
 
+.bottom-section {
+  position: relative;
+  bottom: 300px;
+}
+
 .image_one {
   height: 55%;
   display: block;
@@ -25,6 +30,16 @@ body {
   border-radius: 20px;
   position: relative;
   right: 4px;
+}
+
+.relative-container {
+  position: relative;
+  height: 300px;
+  width: 300px;
+  margin: 0px;
+  padding: 0px;
+  right: 726px;
+  top: 163px;
 }
 
 .image_two {
@@ -129,8 +144,42 @@ hr {
   margin-right: 4px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
   body {
-    background-color: red;
+  }
+  .container {
+    position: relative;
+    bottom: 30px;
+    height: 580px;
+    width: 350px;
+  }
+
+  .image_one {
+    height: 350px;
+    width: 350px;
+    position: relative;
+    left: 2px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  .bottom-section p {
+    font-size: 20px;
+  }
+
+  .para_two,
+  hr,
+  .avatar_info {
+    position: relative;
+    bottom: 50px;
+  }
+
+  .image_two {
+    padding-top: 152px;
+    padding-right: 170px;
+    padding-left: 140px;
+    padding-bottom: 150px;
   }
 }
